@@ -1,0 +1,23 @@
+palavras = [
+    "algoritmo", "ordenação", "python", "programa", "computador",
+    "lista", "vetor", "bubble sort", "insertion sort", "selection sort",
+    "merge sort", "quick sort", "heap sort", "shell sort", "complexidade",
+    "tempo", "espaço", "eficiência", "melhor caso", "pior caso",
+    "caso médio", "estável", "instável", "crescente", "decrescente",
+    "alfabeto", "número", "caractere", "string", "inteiro",
+    "flutuante", "booleano", "função", "método", "classe",
+    "objeto", "atributo", "método", "herança", "polimorfismo",
+    "encapsulamento", "abstrato", "interface", "implementação", "modularidade",
+    "recursividade", "iteração", "condição", "estrutura de dados", "árvore",
+    "fila", "pilha", "grafo", "tabela hash", "busca",
+    "inserção", "remoção", "atualização", "dados", "informação",
+    "conhecimento", "tecnologia", "internet", "rede", "banco de dados",
+    "segurança", "criptografia", "inteligência artificial", "aprendizado de máquina",
+    "visão computacional", "processamento de linguagem natural", "ciência de dados",
+    "estatística", "probabilidade", "matemática", "física", "engenharia",
+    "software", "hardware", "sistema operacional", "aplicativo", "web",
+    "mobile", "nuvem", "big data", "análise", "visualização",
+    "modelo", "simulação", "otimização", "projeto", "desenvolvimento",
+    "teste", "depuração", "documentação", "usuário", "experiência do usuário",
+    "interface gráfica", "console", "terminal"
+]
