@@ -1,3 +1,5 @@
+#data: 31/12/2024
+# o algoritmo mergesort é um exemplo classico do algoritmo dividir e conquistar para ordenacao
 def mergesort(input_list):
     n = len(input_list)
     
@@ -6,13 +8,22 @@ def mergesort(input_list):
         i = j = 0
         result = []
         for k in range(n):
-            if left_list[k] < right_list[i]:
+            if i == len(left_list):     # Condição para checar se uma lista está vazia
+                result.append(right_list[j])  
+                j+=1
+            elif j == len(right_list):     # Condição para checar se uma lista está vazia
+                result.append(left_list[i])  
+                i+=1
+            elif left_list[i] < right_list[j]:
                 result.append(left_list[i])
                 i += 1
             else:
                 result.append(right_list[j])
                 j += 1
-    
+          
+        return result
+            
+            
     if n<=1:
         return input_list
         
