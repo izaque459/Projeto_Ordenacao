@@ -1,5 +1,8 @@
-#data: 31/12/2024
+#data: 01/01/2025
 # o algoritmo mergesort é um exemplo classico do algoritmo dividir e conquistar para ordenacao
+
+from palavras import palavras
+
 def mergesort(input_list):
     n = len(input_list)
     
@@ -34,3 +37,10 @@ def mergesort(input_list):
     result_list = merge(left_list,right_list)
     
     return result_list
+    
+ 
+print("\n Palavras em ordem qualquer \n")
+print(palavras)
+palavras_ordenadas = mergesort(palavras)
+print("\n Palavras ordenadas pelo algoritmo MergeSort\ n")
+print(palavras_ordenadas)
