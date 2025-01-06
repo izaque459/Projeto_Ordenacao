@@ -1,4 +1,6 @@
-
+# Data: 06/01/2025
+# O metodo ShellSort eh uma extensão do metodo InsertionSort
+# A implementacao é uma versao de outra implementacao usando goto 
 from palavras import palavras
 
 def shellsort(input_list):
