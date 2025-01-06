@@ -1,4 +1,7 @@
 from palavras import palavras
+# Data: 06/01/2025
+# O metodo SkakerSort é uma variação do metodo BubbleSort 
+# Cada iteração ocorre nas dois sentidos do array
 
 def shakersort(input_list):
     n = len(input_list)
