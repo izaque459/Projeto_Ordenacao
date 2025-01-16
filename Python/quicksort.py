@@ -43,8 +43,16 @@ def quicksort(input_list):
     orders(input_list,0,len(input_list)-1) 
    
     
+
+teste = sorted(palavras)
+
 print("\n Palavras em ordem qualquer \n")
 print(palavras)
 quicksort(palavras)
 print("\n Palavras ordenadas pelo algoritmo QuickSort \n")
 print(palavras)
+
+if palavras == teste:
+    print(" \nPalavras ordenadas corretamente\n")
+else:
+    print(" \n Palavras ordenadas incorretamente \n")
