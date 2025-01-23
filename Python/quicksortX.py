@@ -1,6 +1,6 @@
-#data:01/01/2025
-# o famoso algorimto quicksort eh o algoritmo que uma vez bem 
-# implementado pode se tornar o favorito em ordenacoes
+#data:23/01/2025
+# o famoso algoritmo quicksortX otimizado para evitar seu pior caso
+# implementado corretamente pode se tornar o favorito em ordenacoes
 from palavras import palavras
 import random
 
