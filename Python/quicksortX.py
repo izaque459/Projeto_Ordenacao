@@ -30,6 +30,19 @@ def indexpivot(input_list,l,r):
     else:
         return k
     
+def insertionsortX(input_list,l,r):
+    x = None                
+    j = 0                                   
+    
+    for i in range(l+1,r+1):                  
+        x = input_list[i]
+        j = i - 1
+                                                
+        while j>=0 and x < input_list[j]:       
+            input_list[j+1] = input_list[j]
+            j -= 1
+        input_list[j+1] = x
+
 
 
 def partition(input_list,l,r): 
@@ -55,10 +68,13 @@ def orders(input_list,l,r):
     
     i,j = partition(input_list,l,r)
     
-    if l < j:
-        orders(input_list,l,j)
-    if i < r:
-        orders(input_list,i,r)
+    if (r - l +1) <=20:
+        insertionsortX(input_list,l,r)
+    else:
+        if l < j:
+            orders(input_list,l,j)
+        if i < r:
+            orders(input_list,i,r)
             
 
 def quicksortX(input_list):
