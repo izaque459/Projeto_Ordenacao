@@ -31,7 +31,6 @@ def radixsort(input_list):
         
     return output
     
-
 # Exemplo de uso:
 tam = 25  # Tamanho da lista a ser gerada
 minimo = 0   # Valor mínimo dos números aleatórios
