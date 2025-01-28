@@ -1,4 +1,4 @@
-from counting import gerarLista
+from countingsort import gerarlista
 
 def countingsort(arr, exp):
     
@@ -26,7 +26,7 @@ def radixsort(input_list):
     exp = 1
        
     while m / exp >= 1:
-        output = coutingsort(input_list)
+        output = countingsort(input_list,exp)
         exp *= 10
         
     return output
@@ -41,7 +41,7 @@ try:
 
     print("Lista não ordenada:", lista_para_ordenar)
 
-    lista_ordenada = countingsort(lista_para_ordenar)
+    lista_ordenada = radixsort(lista_para_ordenar)
     print("Lista ordenada:", lista_ordenada)
 
 except ValueError as e:
