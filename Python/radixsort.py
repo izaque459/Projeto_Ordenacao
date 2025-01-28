@@ -1,4 +1,4 @@
-from countingsort import gerarlista
+import random
 
 def countingsort(arr, exp):
     
@@ -30,6 +30,15 @@ def radixsort(input_list):
         exp *= 10
         
     return input_list
+    
+    
+def gerarlista(tamanho, minimo, maximo):
+    
+    if minimo > maximo:
+        raise ValueError("O valor mínimo deve ser menor ou igual ao valor máximo.")
+
+    lista = [random.randint(minimo, maximo) for _ in range(tamanho)]
+    return lista
     
 # Exemplo de uso:
 tam = 25  # Tamanho da lista a ser gerada
