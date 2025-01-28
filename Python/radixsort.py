@@ -26,10 +26,10 @@ def radixsort(input_list):
     exp = 1
        
     while m / exp >= 1:
-        output = countingsort(input_list,exp)
+        input_list = countingsort(input_list,exp)
         exp *= 10
         
-    return output
+    return input_list
     
 # Exemplo de uso:
 tam = 25  # Tamanho da lista a ser gerada
